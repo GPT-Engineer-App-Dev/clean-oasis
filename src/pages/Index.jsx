@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Flex as="nav" bg="brand.800" color="white" p={4} justifyContent="space-between" alignItems="center">
+      <Flex as="nav" bg="blue.700" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Heading size="lg">Cleaning Service</Heading>
         <HStack spacing={8}>
           <Link to="/">Home</Link>
@@ -16,7 +16,7 @@ const Index = () => {
       </Flex>
 
       {/* Hero Section */}
-      <Box as="section" bg="brand.700" color="white" py={20} textAlign="center">
+      <Box as="section" bg="blue.500" color="white" py={20} textAlign="center">
         <Heading size="2xl" mb={4}>Professional Cleaning Services</Heading>
         <Text fontSize="xl" mb={8}>We make your place spotless and sparkling clean!</Text>
         <Button colorScheme="teal" size="lg">Get a Free Quote</Button>
